@@ -1,0 +1,51 @@
+.home-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.home-input{
+    width: 30rem;
+    height: 2rem;
+    font-size: large;
+}
+.home-button{
+    width: 5rem;
+    background: #000;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    padding-top: 0.4rem;
+    cursor: pointer;
+margin-left: 20px;
+border-radius: 0.3rem;
+}
+
+.list{
+    display: flex;
+    width: 35rem;
+    height: 2rem;
+    background: #d4bdbd;
+    align-items: center;
+    justify-content: space-between;
+padding: 0rem 1rem 0rem 1rem;
+border-radius: 0.5rem;
+margin-top: 0.5rem;
+}
+.click{
+    cursor: pointer;
+    margin-right: 0.5rem;
+
+}
+
+.buttonContainer{
+    display: flex;
+
+}
+
+.maincontainer{
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 2rem; /* Optional: Add space above the container */
+
+}
