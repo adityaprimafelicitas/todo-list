@@ -1,17 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/home';
-import { useEffect, useState } from 'react';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./components/home";
+import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from './firebase';
+import { db } from "./firebase";
 
 function App() {
-
-
-  
   return (
     <div className="App">
-   <Home/>
+      <Home />
     </div>
   );
 }
